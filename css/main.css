@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    height: 900px;
+    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.menu-button {
+    margin: 5px;
+    padding-top: 425px;
+    width: 50px;
+}
+
