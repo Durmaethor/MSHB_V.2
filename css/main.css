@@ -9,14 +9,43 @@ body {
 }
 
 .main-header {
-    height: 900px;
+    height: 990px;
     background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) no-repeat center;
     background-size: cover;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
 .menu-button {
     margin: 5px;
-    padding-top: 425px;
     width: 50px;
 }
 
+/* ==============================================================
+
+        MEDIA QUERIES
+
+ =============================================================== */
+
+@media (min-width: 1900px) {
+
+    .main-header {
+        height: 990px;
+    }
+    
+}
