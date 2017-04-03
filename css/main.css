@@ -16,14 +16,28 @@ body {
 
 ul {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     list-style: none;
     height: 50x;
     margin: 0;
     padding: 0;
 }
 
-li {
+/*li {
 
+}*/
+
+.item1 {
+    flex-grow: 1;
+}
+
+.item2 {
+    flex-grow: 2;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
 }
 
 h1 {
