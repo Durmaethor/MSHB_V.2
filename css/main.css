@@ -8,25 +8,34 @@ body {
     padding: 0;
 }
 
+.mshb-font {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+/* ==============================================================
+
+        MAIN HEADER
+
+ =============================================================== */
+
 .main-header {
     height: 990px;
     background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) no-repeat center;
     background-size: cover;
-}
-
-
-ul {
-    display: inline-block;
-    list-style: none;
-    height: 50x;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: #fff;
-    text-align: center;
-    padding-top: 250px;
+ul {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    position: fixed;
 }
 
 .menu-button {
@@ -34,10 +43,22 @@ h1 {
     width: 50px;
 }
 
-.homeLogo {
-    width: 30px;
-    margin: 5px;
+.name {
+    padding-top: 400px;
+    text-align: center;
 }
+
+.logo {
+    margin: auto;
+    width: 100px;
+}
+
+h1 {
+    color: #fff;
+    padding-top: 25px;
+    margin: 0;
+}
+
 
 /* ==============================================================
 
