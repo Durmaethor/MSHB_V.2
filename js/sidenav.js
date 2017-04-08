@@ -1,15 +1,4 @@
 
-// var app = 0
-
-// function activate(){
-//     if(app == 0){
-//         openNav();
-//     } else { 
-//         closeNav();
-//     }
-// }
-
-
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
