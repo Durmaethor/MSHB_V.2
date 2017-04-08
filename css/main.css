@@ -19,7 +19,7 @@ body {
  =============================================================== */
 
 .main-header {
-    height: 990px;
+    height: 400px;
     background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
@@ -44,20 +44,20 @@ ul {
 }
 
 .name {
-    padding-top: 400px;
+    padding-top: 175px;
     text-align: center;
 }
 
 .logo {
     margin: auto;
-    width: 100px;
+    width: 50px;
 }
 
 h1 {
     color: #fff;
     padding-top: 25px;
     margin: 0;
-    font-size: 75px;
+    font-size: 16px;
     text-shadow: 2px 2px 2px #000;
 }
 
@@ -69,38 +69,121 @@ h1 {
  =============================================================== */
 
 /* ---------------------------------------------------------------
-        768px
+        768px X 1024px
 ---------------------------------------------------------------- */
+@media (min-width: 768px) {
 
-/* ---------------------------------------------------------------
-        1150px
----------------------------------------------------------------- */
-@media (min-width: 1150px){
-
-
-}
-
-/* ---------------------------------------------------------------
-        1438px
----------------------------------------------------------------- */
-@media (min-width: 1438px) {
-    
     .main-header {
-        height: 805px;
+        height: 1024px;
+    }
+
+    .name {
+        padding-top: 500px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .logo {
+        width: 75px;
     }
 
 }
 
 /* ---------------------------------------------------------------
-        1920px
+        1024px X 768px
 ---------------------------------------------------------------- */
-@media (min-width: 1920px) {
+
+@media (min-width: 1024px) {
+
+    .main-header {
+        height: 800px;
+    }
+
+    .name {
+        padding-top: 400px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+}
+
+/* ---------------------------------------------------------------
+        1440px X 900px
+---------------------------------------------------------------- */
+@media (min-width: 1440px) {
+    
+    .main-header {
+        height: 900px;
+    }
+
+    .name {
+        padding-top: 450px;
+    }
+
+    h1 {
+        font-size: 85px;
+    }
+
+    .logo {
+        width: 125px;
+    }
+
+}
+
+/* ---------------------------------------------------------------
+        1900px
+---------------------------------------------------------------- */
+@media (min-width: 1900px) {
 
     .main-header {
         height: 1080px;
     }
 
+    .name {
+        padding-top: 550px;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
 
 }
 
+/* ---------------------------------------------------------------
+        2500px
+---------------------------------------------------------------- */
+
+@media (min-width: 2500px) {
+
+    .main-header {
+        height: 1440px;
+    }
+
+    .name {
+        padding-top: 750px;
+    }
+
+    h1 {
+        font-size: 125px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+
+}
 
