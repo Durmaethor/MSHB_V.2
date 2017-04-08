@@ -10,6 +10,11 @@ body {
 
 .mshb-font {
     font-family: 'Love Ya Like A Sister', cursive;
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
 }
 
 
@@ -36,8 +41,8 @@ body {
  =============================================================== */
 
 .main-header {
-    height: 400px;
-    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) no-repeat center;
+    height: 600px;
+    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) fixed no-repeat;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -52,7 +57,7 @@ ul {
 }
 
 .name {
-    padding-top: 175px;
+    padding-top: 300px;
     text-align: center;
 }
 
@@ -65,10 +70,43 @@ h1 {
     color: #fff;
     padding-top: 25px;
     margin: 0;
-    font-size: 16px;
+    font-size: 24px;
     text-shadow: 2px 2px 2px #000;
 }
 
+h2 {
+    padding-top: 550px;
+}
+
+/* ==============================================================
+
+        CONTENT
+
+ =============================================================== */
+
+.content {
+    width: 100%;
+    margin: auto;
+}
+
+.align {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ---------------------------------------------------------------
+        Second parallax image
+---------------------------------------------------------------- */
+
+.about-img {
+    height: 600px;
+    background:  #fff url(http://mysimplehomebusiness.com/IMAGES/ABOUT-US/family-pic.jpg) fixed no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
 
 /* ==============================================================
 
@@ -89,12 +127,24 @@ h1 {
         padding-top: 500px;
     }
 
-    h1 {
+    .mshb-font {
         font-size: 50px;
     }
 
     .logo {
         width: 75px;
+    }
+
+    .align {
+        font-size: 24px;
+    }
+
+    .about-img {
+        height: 1024px;
+    }
+
+    h2 {
+        padding-top: 900px;
     }
 
 }
@@ -110,16 +160,55 @@ h1 {
     }
 
     .name {
-        padding-top: 400px;
+        padding-top: 150px;
     }
 
-    h1 {
+    .mshb-font {
         font-size: 60px;
     }
 
     .logo {
         width: 100px;
     }
+
+    .align {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .about-img {
+        height: 1024px;
+    }
+
+
+}
+
+/* ---------------------------------------------------------------
+        1366px X 1024px
+---------------------------------------------------------------- */
+
+@media (min-width: 1366px) {
+    
+    .main-header {
+        height: 1024px;
+    }
+
+    .name {
+        padding-top: 200px;
+    }
+
+    .mshb-font {
+        font-size: 85px;
+    }
+
+    .logo {
+        width: 125px;
+    }
+
+    .align {
+        font-size: 30px;
+    }
+
 
 }
 
@@ -136,7 +225,7 @@ h1 {
         padding-top: 450px;
     }
 
-    h1 {
+    .mshb-font {
         font-size: 85px;
     }
 
