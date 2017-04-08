@@ -12,6 +12,23 @@ body {
     font-family: 'Love Ya Like A Sister', cursive;
 }
 
+
+/* ==============================================================
+
+        NAVIGATION
+
+ =============================================================== */
+
+.navigation {
+    position: fixed;
+}
+
+.menu-button {
+    margin: 5px;
+    width: 50px;
+}
+
+
 /* ==============================================================
 
         MAIN HEADER
@@ -32,15 +49,6 @@ ul {
     height: 50px;
     margin: 0;
     padding: 0;
-}
-
-.navigation {
-    position: fixed;
-}
-
-.menu-button {
-    margin: 5px;
-    width: 50px;
 }
 
 .name {
