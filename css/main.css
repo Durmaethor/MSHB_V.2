@@ -42,7 +42,7 @@ body {
 
 .main-header {
     height: 600px;
-    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) fixed no-repeat;
+    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -102,7 +102,7 @@ h2 {
 
 .about-img {
     height: 600px;
-    background:  #fff url(http://mysimplehomebusiness.com/IMAGES/ABOUT-US/family-pic.jpg) fixed no-repeat;
+    background:  #fff url(http://mysimplehomebusiness.com/IMAGES/ABOUT-US/family-pic.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -160,7 +160,7 @@ h2 {
     }
 
     .name {
-        padding-top: 150px;
+        padding-top: 300px;
     }
 
     .mshb-font {
@@ -178,6 +178,7 @@ h2 {
 
     .about-img {
         height: 1024px;
+        background:  #fff url(http://mysimplehomebusiness.com/IMAGES/ABOUT-US/family-pic.jpg) fixed no-repeat center;
     }
 
 
