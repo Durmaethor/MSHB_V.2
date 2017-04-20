@@ -28,11 +28,6 @@ body {
     position: fixed;
 }
 
-.menu-button {
-    margin: 5px;
-    width: 50px;
-}
-
 
 /* ==============================================================
 
@@ -207,6 +202,11 @@ h2 {
 
     .align {
         font-size: 30px;
+    }
+
+    .menu-button {
+        margin: 5px;
+        width: 50px;
     }
 
 
