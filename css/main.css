@@ -10,7 +10,7 @@ body {
 
 .mshb-font {
     font-family: 'Love Ya Like A Sister', cursive;
-    color: white;
+    color: #FF0000;
     margin: 0;
     font-size: 24px;
     text-shadow: 2px 2px 2px #000;
@@ -25,7 +25,22 @@ body {
  =============================================================== */
 
 .navigation {
+    visibility: hidden;
     position: fixed;
+}
+
+.menu-button {
+    visibility: hidden;
+}
+
+#navigation2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF0000;
+    color: white;
+    height: 50px;
 }
 
 
@@ -142,6 +157,8 @@ h2 {
         padding-top: 900px;
     }
 
+    
+
 }
 
 /* ---------------------------------------------------------------
@@ -175,6 +192,17 @@ h2 {
         height: 1024px;
     }
 
+    #navigation2 {
+        visibility: hidden;
+    }
+
+    .menu-button {
+        margin: 5px;
+        width: 50px;
+        visibility: visible;
+    }
+
+ 
 
 }
 
@@ -204,12 +232,6 @@ h2 {
         font-size: 30px;
     }
 
-    .menu-button {
-        margin: 5px;
-        width: 50px;
-    }
-
-
 }
 
 /* ---------------------------------------------------------------
@@ -222,7 +244,7 @@ h2 {
     }
 
     .name {
-        padding-top: 450px;
+        padding-top: 350px;
     }
 
     .mshb-font {
