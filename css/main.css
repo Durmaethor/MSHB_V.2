@@ -44,6 +44,14 @@ body {
 }
 
 
+ul.SM {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
 /* ==============================================================
 
         MAIN HEADER
@@ -202,7 +210,7 @@ h2 {
         visibility: visible;
     }
 
- 
+
 
 }
 
