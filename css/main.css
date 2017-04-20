@@ -43,13 +43,16 @@ body {
     height: 50px;
 }
 
-
 ul.SM {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
     }
+
+.FB-logo {
+    width: 25px;
+}
 
 
 /* ==============================================================
