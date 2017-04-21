@@ -48,9 +48,18 @@ ul.SM {
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
+        padding-top: 50px;
     }
 
 .FB-logo {
+    width: 25px;
+}
+
+.T-logo {
+    width: 32px;
+}
+
+.I-logo {
     width: 25px;
 }
 
