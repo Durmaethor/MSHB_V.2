@@ -182,7 +182,7 @@ h1 {
     }
 
     .name {
-        padding-top: 500px;
+        padding-top: 350px;
     }
 
     .mshb-font {
@@ -215,19 +215,20 @@ h1 {
         color: #fff;
         margin: 0;
         padding: 50px 5px 5px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     #contact-text-2 {
         height: 150px;
         background-color: red;
         margin: 0;
-        padding: 35px 5px 5px;
+        padding: 50px;
         font-size: 20px;
     }
 
     .callTo {
         clear: both;
+        padding: 50px 20px;
     }
 
 }
@@ -243,7 +244,7 @@ h1 {
     }
 
     .name {
-        padding-top: 300px;
+        padding-top: 225px;
     }
 
     .mshb-font {
@@ -275,14 +276,10 @@ h1 {
 
     .contact-img {
         height: 600px;
-        background:  #fff url(/images/Contact-us-1.jpg) fixed no-repeat center;
-        background-size: cover;
-        margin: 0;
-        padding: 0;
     }
 
     .contact-h2 {
-        padding: 450px 0;
+        padding: 475px 0;
     }
 
     #contact-text {
@@ -292,20 +289,16 @@ h1 {
         background-color: black;
         color: white;
         margin: 0;
-        padding: 150px 5px;
+        padding: 150px 20px 20px;
     }
 
-    .c-text {
+    #contact-text-2 {
         float: right;
         width: 50%;
         height: 400px;
         background-color: red;
         margin: 0;
-
-    }
-
-    .callTo {
-        clear: both;
+        padding: 150px 20px 20px;
     }
 
 }
@@ -336,6 +329,30 @@ h1 {
         font-size: 30px;
     }
 
+    .about-h2 {
+        padding-top: 875px;
+    }
+
+    .contact-h2 {
+        padding: 450px 0;
+    }
+
+    #contact-text {
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 150px 20px 20px;
+        font-size: 26px;
+    }
+
+    #contact-text-2 {
+        height: 400px;
+        background-color: red;
+        margin: 0;
+        padding: 150px 20px 20px;
+        font-size: 26px;
+    }
+
 }
 
 /* ---------------------------------------------------------------
@@ -348,7 +365,7 @@ h1 {
     }
 
     .name {
-        padding-top: 350px;
+        padding-top: 250px;
     }
 
     .mshb-font {
@@ -371,17 +388,24 @@ h1 {
     }
 
     .name {
-        padding-top: 550px;
+        padding-top: 300px;
     }
 
-    h1 {
-        font-size: 75px;
+    h1.mshb-font {
+        font-size: 120px;
     }
 
     .logo {
         width: 150px;
     }
 
+    #contact-text {
+        font-size: 32px;
+    }
+
+    #contact-text-2 {
+        font-size: 32px;
+    }
 
 }
 
