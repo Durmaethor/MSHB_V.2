@@ -415,11 +415,11 @@ h1 {
     }
 
     .name {
-        padding-top: 750px;
+        padding-top: 500px;
     }
 
-    h1 {
-        font-size: 125px;
+    h1.mshb-font {
+        font-size: 175px;
     }
 
     .logo {
