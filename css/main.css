@@ -129,6 +129,18 @@ h2 {
     padding: 0;
 }
 
+/* ---------------------------------------------------------------
+        Third parallax image
+---------------------------------------------------------------- */
+
+.contact-img {
+    height: 600px;
+    background:  #fff url(/images/Contact-us-1.jpg) fixed no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 /* ==============================================================
 
         MEDIA QUERIES
