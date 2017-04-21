@@ -78,7 +78,7 @@ ul {
 }
 
 .name {
-    padding-top: 300px;
+    padding-top: 175px;
     text-align: center;
 }
 
@@ -95,8 +95,8 @@ h1 {
     text-shadow: 2px 2px 2px #000;
 }
 
-h2 {
-    padding-top: 550px;
+.about-h2 {
+    padding-top: 525px;
 }
 
 /* ==============================================================
@@ -134,11 +134,36 @@ h2 {
 ---------------------------------------------------------------- */
 
 .contact-img {
-    height: 600px;
+    height: 300px;
     background:  #fff url(/images/Contact-us-1.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
+}
+
+.contact-h2 {
+    padding: 225px 0;
+}
+
+#contact-text {
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 50px 5px 5px;
+    font-size: 14px;
+}
+
+.c-text {
+    height: 150px;
+    background-color: red;
+    margin: 0;
+    padding: 35px 5px 5px;
+    font-size: 14px;
+}
+
+.callTo {
+    clear: both;
 }
 
 /* ==============================================================
@@ -176,11 +201,34 @@ h2 {
         height: 1024px;
     }
 
-    h2 {
+    .about-h2 {
         padding-top: 900px;
     }
 
-    
+    .contact-h2 {
+        padding: 200px 0;
+    }
+
+    #contact-text {
+        height: 150px;
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 50px 5px 5px;
+        font-size: 24px;
+    }
+
+    #contact-text-2 {
+        height: 150px;
+        background-color: red;
+        margin: 0;
+        padding: 35px 5px 5px;
+        font-size: 20px;
+    }
+
+    .callTo {
+        clear: both;
+    }
 
 }
 
@@ -225,7 +273,40 @@ h2 {
         visibility: visible;
     }
 
+    .contact-img {
+        height: 600px;
+        background:  #fff url(/images/Contact-us-1.jpg) fixed no-repeat center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
 
+    .contact-h2 {
+        padding: 450px 0;
+    }
+
+    #contact-text {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 150px 5px;
+    }
+
+    .c-text {
+        float: right;
+        width: 50%;
+        height: 400px;
+        background-color: red;
+        margin: 0;
+
+    }
+
+    .callTo {
+        clear: both;
+    }
 
 }
 
