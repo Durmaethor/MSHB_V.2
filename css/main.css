@@ -342,6 +342,10 @@ p {
         visibility: visible;
     }
 
+    #basics-h2 {
+        padding-top: 25px;
+    }
+
     .contact-img {
         height: 600px;
     }
