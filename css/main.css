@@ -104,8 +104,8 @@ h1 {
     text-shadow: 2px 2px 2px #000;
 }
 
-.about-h2 {
-    padding-top: 525px;
+#intro {
+    text-align: center;
 }
 
 /* ==============================================================
@@ -114,17 +114,41 @@ h1 {
 
  =============================================================== */
 
-.align {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    font-size: 18px;
-    padding: 50px 20px;
+
+
+
+p {
+    padding: 25px;
 }
 
 /* ---------------------------------------------------------------
         Second parallax image
 ---------------------------------------------------------------- */
+
+#basics {
+    text-align: center;
+}
+
+.customer {
+    float: left;
+    width: 50%;
+    background-color: #ff0000;
+}
+
+.business {
+    float: right;
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------
+        Third parallax image
+---------------------------------------------------------------- */
+
+#about {
+    text-align: center;
+}
 
 .about-img {
     height: 600px;
@@ -134,9 +158,18 @@ h1 {
     padding: 0;
 }
 
+.about-h2 {
+    padding-top: 525px;
+}
+
+
 /* ---------------------------------------------------------------
-        Third parallax image
+        Fourth parallax image
 ---------------------------------------------------------------- */
+
+#contact {
+    text-align: center;
+}
 
 .contact-img {
     height: 300px;
@@ -173,7 +206,7 @@ h1 {
 
 /* ==============================================================
 
-        FOOTEr
+        FOOTER
 
  =============================================================== */
 
@@ -241,10 +274,6 @@ h1 {
 
     .about-h2 {
         padding-top: 900px;
-    }
-
-    #about-text {
-        padding: 50px 20px;
     }
 
     .contact-h2 {
