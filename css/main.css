@@ -324,17 +324,8 @@ p {
         padding-top: 225px;
     }
 
-    .mshb-font {
-        font-size: 60px;
-    }
-
     .logo {
         width: 100px;
-    }
-
-    .align {
-        width: 90%;
-        font-size: 30px;
     }
 
     .about-img {
@@ -355,8 +346,8 @@ p {
         height: 600px;
     }
 
-    .contact-h2 {
-        padding: 475px 0;
+    #contact-h2 {
+        padding: 500px 0;
     }
 
     #contact-text {
