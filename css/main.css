@@ -119,6 +119,7 @@ h1 {
     margin: auto;
     text-align: center;
     font-size: 18px;
+    padding: 50px 20px;
 }
 
 /* ---------------------------------------------------------------
@@ -240,6 +241,10 @@ h1 {
 
     .about-h2 {
         padding-top: 900px;
+    }
+
+    #about-text {
+        padding: 50px 20px;
     }
 
     .contact-h2 {
@@ -434,6 +439,18 @@ h1 {
 
     .logo {
         width: 150px;
+    }
+
+    .about-img {
+        height: 1080px;
+    }
+
+    .about-h2 {
+        padding-top: 875px;
+    }
+
+    .contact-h2 {
+        padding-top: 400px;
     }
 
     #contact-text {
