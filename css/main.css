@@ -119,8 +119,9 @@ h1 {
  =============================================================== */
 
 p {
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
+    margin: 0;
 }
 
 /* ---------------------------------------------------------------
@@ -137,14 +138,47 @@ p {
 
 .customer {
     height: 300px;
-    background-color: #ff0000;
+    background:  #fff url(/images/receipt.jpg)no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.hover-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(239, 9, 9, .75);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.customer:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
 }
 
 .business {
     height: 300px;
-    background-color: #000;
-    color: #fff;
+    background:  #fff url(/images/receipt.jpg)no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
+
+
+/* Customer Image */
+
+/*.customer-img {
+    width: 250px;
+    margin: 20px;
+}*/
 
 /* ---------------------------------------------------------------
         Third parallax image
@@ -272,6 +306,11 @@ p {
 
     p {
         font-size: 20px;
+    }
+
+    .customer-img {
+        width: 250px;
+        margin: 20px;
     }
 
     .about-img {
