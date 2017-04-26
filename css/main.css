@@ -133,8 +133,8 @@ p {
 }
 
 .basics-img {
-    height: 600px;
-    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) fixed no-repeat center;
+    height: 500px;
+    background:  #fff url(/images/options.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
