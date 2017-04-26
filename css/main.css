@@ -132,6 +132,14 @@ p {
     text-align: center;
 }
 
+.basics-img {
+    height: 600px;
+    background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) fixed no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 #basics-h2 {
     font-size: 24px;
 }
@@ -143,6 +151,11 @@ p {
     margin: 0;
     padding: 0;
     position: relative;
+}
+
+.customer-h3 {
+    line-height: 300px;
+    font-size: 32px;
 }
 
 .hover-text {
@@ -165,11 +178,25 @@ p {
 
 .business {
     height: 300px;
-    background:  #fff url(/images/receipt.jpg)no-repeat center;
+    background:  #fff url(/images/business-strategy.jpg)no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
     position: relative;
+}
+
+.business-h3 {
+    line-height: 300px;
+    font-size: 32px;
+}
+
+.business:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.desc {
+    padding: 140px 20px 20px;
 }
 
 
@@ -382,6 +409,7 @@ p {
     }
 
     p {
+        padding: 20px;
         line-height: 125%;
     }
 
