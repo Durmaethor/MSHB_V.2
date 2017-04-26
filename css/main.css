@@ -342,6 +342,10 @@ p {
         visibility: visible;
     }
 
+    p {
+        line-height: 125%;
+    }
+
     #basics-h2 {
         padding-top: 25px;
     }
@@ -407,16 +411,9 @@ p {
         width: 125px;
     }
 
-    .align {
-        font-size: 30px;
-    }
-
-    .about-h2 {
-        padding-top: 25px;
-    }
-
-    .contact-h2 {
-        padding: 450px 0;
+    p {
+        font-size: 24px;
+        line-height: 150%;
     }
 
     #contact-text {
@@ -485,12 +482,19 @@ p {
         height: 1080px;
     }
 
-    #about-h2 {
+    #basics-h2 {
         padding-top: 25px;
+        font-size: 44px;
     }
 
-    .contact-h2 {
-        padding-top: 400px;
+    #about-h2 {
+        padding-top: 25px;
+        font-size: 44px;
+    }
+
+    #contact-h2 {
+        padding-top: 490px;
+        font-size: 44px;
     }
 
     #contact-text {
