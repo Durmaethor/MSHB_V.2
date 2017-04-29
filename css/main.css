@@ -35,6 +35,7 @@ body {
 #navigation2 {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 #navigation2 ul {
@@ -112,6 +113,10 @@ h1 {
     text-align: center;
 }
 
+.intro-div {
+    margin: 20px 10px;
+}
+
 /* ==============================================================
 
         CONTENT
@@ -141,7 +146,12 @@ p {
 }
 
 #basics-h2 {
+    padding-top: 50px;
     font-size: 24px;
+}
+
+#basics-text {
+    margin: 0 10px 10px;;
 }
 
 .customer {
@@ -228,6 +238,9 @@ p {
     padding-top: 50px;
 }
 
+.about-div {
+    margin-bottom: 20px;
+}
 
 /* ---------------------------------------------------------------
         Fourth parallax image
@@ -418,6 +431,10 @@ p {
     }
 
     #basics-h2 {
+        padding-top: 25px;
+    }
+
+    #about-h2 {
         padding-top: 25px;
     }
 
