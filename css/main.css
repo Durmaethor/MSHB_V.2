@@ -291,11 +291,16 @@ p {
  =============================================================== */
 
 .customer-header {
-    height: 400px;
+    height: 300px;
     background:  #fff url(/images/receipt.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
+}
+
+.customer-h2 {
+    padding: 250px 0;
+    font-size: 24px;
 }
 
 .customer-info {
@@ -303,6 +308,36 @@ p {
     text-align: center;
     margin: 20px 10px;
 }
+
+.customer-bullets {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list {
+    padding: 20px 10px;
+    height: 125px;
+}
+
+.list li {
+    padding: 5px;
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+}
+
+.box2 {
+    background-color: white;
+}
+
+.box3 {
+    background-color: red;
+    color: white;
+}
+
 
 /* ==============================================================
 
@@ -407,6 +442,14 @@ p {
         padding: 50px 20px;
     }
 
+    .customer-header {
+        height: 425px;
+    }
+
+    .customer-h2 {
+        font-size: 36px;
+    }
+
 }
 
 /* ---------------------------------------------------------------
@@ -495,6 +538,25 @@ p {
         width: 50%;
     }
 
+    .customer-header {
+        height: 425px;
+    }
+
+    .customer-h2 {
+        padding: 300px 0;
+        font-size: 44px;
+    }
+
+    .customer-bullets {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .list {
+        flex-grow: 1;
+    }
+ 
 }
 
 /* ---------------------------------------------------------------
