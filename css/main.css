@@ -413,6 +413,10 @@ p {
         line-height: 125%;
     }
 
+    .ancient {
+        clear: both;
+    }
+
     #basics-h2 {
         padding-top: 25px;
     }
