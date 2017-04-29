@@ -338,6 +338,19 @@ p {
     color: white;
 }
 
+.customer-img-2 {
+    height: 300px;
+    background:  #fff url(/images/receipt.jpg) fixed no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.white-bottom {
+    height: 50px;
+    background-color: white;
+}
+
 
 /* ==============================================================
 
@@ -448,6 +461,10 @@ p {
 
     .customer-h2 {
         font-size: 36px;
+    }
+
+    .customer-img-2 {
+        height: 375px;
     }
 
 }
@@ -582,7 +599,7 @@ p {
     }
 
     p {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 150%;
     }
 
@@ -601,6 +618,17 @@ p {
         padding: 150px 20px 20px;
         font-size: 26px;
     }
+
+    .list {
+        font-size: 20px;
+        padding: 20px 10px;
+        height: 300px;
+    }
+
+    .list li {
+        padding: 25px;
+    }
+
 
 }
 
@@ -648,6 +676,10 @@ p {
         width: 150px;
     }
 
+    p {
+        font-size: 24px;
+    }
+
     .about-img {
         height: 1080px;
     }
@@ -674,6 +706,11 @@ p {
     #contact-text-2 {
         font-size: 32px;
     }
+
+    .list {
+        font-size: 24px;
+    }
+
 
 }
 
