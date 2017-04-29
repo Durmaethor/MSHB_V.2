@@ -286,6 +286,26 @@ p {
 
 /* ==============================================================
 
+        CUSTOMER PAGE
+
+ =============================================================== */
+
+.customer-header {
+    height: 400px;
+    background:  #fff url(/images/receipt.jpg) fixed no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.customer-info {
+    background-color: white;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+/* ==============================================================
+
         FOOTER
 
  =============================================================== */
