@@ -17,6 +17,7 @@ body {
 }
 
 
+
 /* ==============================================================
 
         NAVIGATION
@@ -347,8 +348,15 @@ p {
 }
 
 .white-bottom {
-    height: 50px;
+    height: 100px;
     background-color: white;
+}
+
+.business-link {
+    padding: 35px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 
@@ -359,7 +367,7 @@ p {
  =============================================================== */
 
  footer {
-     height: 50px;
+     height: 100px;
      background-color: #000;
  }
 
@@ -383,6 +391,14 @@ p {
 .I-logo-f {
     width: 25px;
     padding: 5px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 /* ==============================================================
@@ -651,6 +667,39 @@ p {
 
     .logo {
         width: 125px;
+    }
+
+    .FB-logo-f {
+        width: 40px;
+        padding: 20px 5px;
+    }
+
+    .T-logo-f {
+        width: 50px;
+        padding: 20px 5px;
+    }
+
+    .I-logo-f {
+        width: 40px;
+        padding: 20px 5px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+     ul.SM-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
     }
 
 }
