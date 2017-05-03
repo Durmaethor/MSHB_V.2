@@ -352,13 +352,23 @@ p {
     background-color: white;
 }
 
-.business-link {
+.business-link,
+.customer-link {
     padding: 35px 0;
     margin: 0;
     text-align: center;
     font-size: 18px;
 }
 
+/* ==============================================================
+
+        BUSINESS PAGE
+
+ =============================================================== */
+
+ .business-header {
+     
+ }
 
 /* ==============================================================
 
