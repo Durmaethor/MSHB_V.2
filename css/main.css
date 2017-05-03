@@ -367,8 +367,17 @@ p {
  =============================================================== */
 
  .business-header {
-     
+    height: 300px;
+    background:  #fff url(/images/receipt.jpg) fixed no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
  }
+
+ .business-h2 {
+    padding: 250px 0;
+    font-size: 24px;
+}
 
 /* ==============================================================
 
