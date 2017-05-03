@@ -367,15 +367,15 @@ p {
  =============================================================== */
 
  .business-header {
-    height: 300px;
-    background:  #fff url(/images/receipt.jpg) fixed no-repeat center;
+    height: 450px;
+    background:  #fff url(/images/business-strategy.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
  }
 
  .business-h2 {
-    padding: 250px 0;
+    padding: 400px 0;
     font-size: 24px;
 }
 
@@ -386,14 +386,22 @@ p {
 
 .the-dos-image {
     height: 300px;
-    background:  #fff url(/images/business-strategy.jpg)no-repeat center;
+    background:  #fff url(/images/sunset-1.jpg)no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
+.do-title,
+.dont-title,
+.how-title {
+    text-align: center;
+    padding: 145px 25px;
+}
+
 .the-dos-list,
-.the-donts-list {
+.the-donts-list,
+.the-how-list {
     background-color: white;
     height: 330px;
     padding: 50px 50px 50px 60px;
@@ -405,13 +413,25 @@ p {
 
 .the-donts-image {
     height: 300px;
-    background:  #fff url(/images/business-strategy.jpg)no-repeat center;
+    background:  #fff url(/images/thunder.jpg)no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 .the-donts-list li {
+    padding: 10px;
+}
+
+.the-how-image {
+    height: 300px;
+    background:  #fff url(/images/thunder.jpg)no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.the-how-list li {
     padding: 10px;
 }
 
