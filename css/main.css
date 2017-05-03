@@ -379,6 +379,43 @@ p {
     font-size: 24px;
 }
 
+.business-info {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.the-dos-image {
+    height: 300px;
+    background:  #fff url(/images/business-strategy.jpg)no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.the-dos-list,
+.the-donts-list {
+    background-color: white;
+    height: 330px;
+    text-align: center;
+    padding: 50px;
+}
+
+.the-dos-list li {
+    padding: 10px;
+}
+
+.the-donts-image {
+    height: 300px;
+    background:  #fff url(/images/business-strategy.jpg)no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.the-donts-list li {
+    padding: 10px;
+}
+
 /* ==============================================================
 
         FOOTER
