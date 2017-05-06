@@ -375,7 +375,7 @@ p {
  }
 
  .business-h2 {
-    padding: 400px 0;
+    padding-top: 400px;
     font-size: 24px;
 }
 
@@ -396,7 +396,7 @@ p {
 .dont-title,
 .how-title {
     text-align: center;
-    padding: 145px 25px;
+    padding-top: 110px;
 }
 
 .the-dos-list,
@@ -695,7 +695,7 @@ p {
     }
 
     .mshb-font {
-        font-size: 85px;
+        font-size: 75px;
     }
 
     .logo {
@@ -731,6 +731,56 @@ p {
 
     .list li {
         padding: 25px;
+    }
+
+    .business-h2 {
+        padding-top: 300px;
+    }
+
+    .the-dos-image {
+        float: left;
+        width: 50%;
+    }
+
+    .the-dos-list {
+        float: right;
+        width: 50%;
+        height: 300px;
+        padding: 35px 5px 20px 100px;
+    }
+
+    .the-donts-image {
+        float: right;
+        width: 50%;
+    }
+
+    .the-donts-list {
+        float: left;
+        width: 50%;
+        height: 300px;
+        padding: 35px 5px 20px 100px;
+    }
+
+    .the-how-image {
+        float: left;
+        width: 50%;
+    }
+
+    .the-how-list {
+        float: right;
+        width: 50%;
+        height: 300px;
+        padding: 40px 5px 10px 50px;
+    }
+
+    .closing {
+        clear: both;
+        padding: 50px 5px 25px;
+    }
+
+    .closing-text {
+        padding: 0;
+        margin: 0;
     }
 
 
@@ -848,6 +898,12 @@ p {
         font-size: 24px;
     }
 
+    .the-how-list {
+        float: right;
+        width: 50%;
+        height: 300px;
+        padding: 40px 5px 10px 100px;
+    }
 
 }
 
