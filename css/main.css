@@ -16,7 +16,45 @@ body {
     text-align: center;
 }
 
+/* =================================
+	LINK STYLES
+================================= */
 
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:active {
+	color: #000;
+}
+
+a.glow,
+a.glow:hover, 
+a.glow:focus {
+	text-decoration: none;
+	color: #000;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+  }
+
+a.glow:hover, 
+a.glow:focus  {
+	color: white;
+	text-shadow: -1px 1px 8px orange, 1px -1px 8px orange;
+  }
 
 /* ==============================================================
 
@@ -44,7 +82,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #FF0000;
+    background-color: #FFF;
     color: white;
     height: 50px;
 }
