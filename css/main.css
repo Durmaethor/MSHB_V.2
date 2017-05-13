@@ -10,6 +10,7 @@ body {
 
 .mshb-font {
     font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 500;
     color: #FF0000;
     margin: 0;
     text-shadow: 2px 2px 2px #000;
@@ -141,11 +142,12 @@ ul {
 }
 
 h1 {
-    color: #fff;
-    padding-top: 25px;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #FFF;
     margin: 0;
-    font-size: 24px;
     text-shadow: 2px 2px 2px #000;
+    text-align: center;
 }
 
 #intro {
@@ -397,6 +399,7 @@ p {
     margin: 0;
     text-align: center;
     font-size: 18px;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
 }
 
 /* ==============================================================
@@ -822,6 +825,11 @@ p {
         margin: 0;
     }
 
+    .business-link,
+    .customer-link {
+        font-size: 24px;
+    }
+
 
 }
 
@@ -894,8 +902,8 @@ p {
         padding-top: 300px;
     }
 
-    h1.mshb-font {
-        font-size: 120px;
+    h1 {
+        font-size: 100px;
     }
 
     .logo {
@@ -960,7 +968,7 @@ p {
         padding-top: 500px;
     }
 
-    h1.mshb-font {
+    h1 {
         font-size: 175px;
     }
 
