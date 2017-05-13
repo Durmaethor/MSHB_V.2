@@ -402,6 +402,7 @@ p {
     font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
 }
 
+
 /* ==============================================================
 
         BUSINESS PAGE
@@ -475,6 +476,10 @@ p {
 
 .the-how-list li {
     padding: 10px;
+}
+
+.closing {
+    background-color: red;
 }
 
 .closing-text {
@@ -817,7 +822,7 @@ p {
 
     .closing {
         clear: both;
-        padding: 50px 5px 25px;
+        padding: 30px 20px;
     }
 
     .closing-text {
