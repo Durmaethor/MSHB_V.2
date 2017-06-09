@@ -22,12 +22,12 @@ body {
     ================================= */
 
     a:link {
-        color: #000;
+        color: red;
         text-decoration: none;
     }
 
     a:visited {
-        color: #000;
+        color: red;
     }
 
 /* ==============================================================
@@ -713,23 +713,6 @@ a.mobile-link {
     /* =================================
         LINK STYLES
     ================================= */
-
-    a:link {
-        color: #000;
-        text-decoration: none;
-    }
-
-    a:visited {
-        color: #000;
-    }
-
-    a:hover {
-        color: #ff0000;
-    }
-
-    a:active {
-        color: #000;
-    }
 
     a.glow,
     a.glow:hover, 
