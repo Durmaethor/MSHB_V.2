@@ -710,9 +710,9 @@ a.mobile-link {
 
 @media (min-width: 1366px) {
 
-    /* =================================
+/* =================================
         LINK STYLES
-    ================================= */
+================================= */
 
     a.glow,
     a.glow:hover, 
@@ -732,9 +732,17 @@ a.mobile-link {
         color: white;
         text-shadow: -1px 1px 8px #ff0000, 1px -1px 8px #ff0000;
     }
+
+/* =============================================================
+
+        MAIN HEADER LARGE SCREENS
+
+ ========================================================= */
     
     .main-header {
         height: 1024px;
+        background:  #fff url(/images/home-office-5.jpg) fixed no-repeat center;
+        background-size: cover;
     }
 
     .name {
@@ -749,9 +757,23 @@ a.mobile-link {
         width: 125px;
     }
 
+/* -------------------------CONTENT------------------------*/
+
     p {
         font-size: 20px;
         line-height: 150%;
+    }
+
+/* =======================================================
+
+        BASICS HEADER LARGE SCREENS
+
+======================================================== */
+
+    .basics-img {
+        height: 450px;
+         background:  #fff url(/images/options.jpg) fixed no-repeat center;
+         background-size: cover;
     }
 
     #contact-text {
