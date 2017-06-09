@@ -548,6 +548,11 @@ a.mobile-link {
         font-size: 20px;
     }
 
+    .basics-img {
+        height: 400px;
+        background-size: 768px;
+    }
+
     .customer-img {
         width: 250px;
         margin: 20px;
@@ -615,6 +620,11 @@ a.mobile-link {
         width: 100px;
     }
 
+    .basics-img {
+        height: 550px;
+        background-size: 1024px;
+    }
+
     .about-img {
         height: 1024px;
     }
@@ -647,7 +657,7 @@ a.mobile-link {
     }
 
     .contact-img {
-        height: 600px;
+        height: 400px;
     }
 
     #contact-h2 {
@@ -704,9 +714,11 @@ a.mobile-link {
  
 }
 
-/* ---------------------------------------------------------------
-        1366px X 1024px
----------------------------------------------------------------- */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+         
+         COMPUTER / LARGE SCREENS 1366px X 1024px
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media (min-width: 1366px) {
 
@@ -749,6 +761,10 @@ a.mobile-link {
         padding-top: 200px;
     }
 
+    #name {
+        font-size: 72px;
+    }
+
     .mshb-font {
         font-size: 75px;
     }
@@ -775,6 +791,32 @@ a.mobile-link {
          background:  #fff url(/images/options.jpg) fixed no-repeat center;
          background-size: cover;
     }
+
+/* =======================================================
+
+        ABOUT HEADER LARGE SCREENS
+
+======================================================== */
+
+    .about-img {
+        height: 600px;
+        background:  #fff url(https://mysimplehomebusiness.files.wordpress.com/2016/12/cropped-family-6.jpg) fixed no-repeat center;
+        background-size: cover;
+    }
+
+/*=======================================================
+
+        CONTACT HEADER LARGE SCREENS
+
+======================================================== */
+
+    .contact-img {
+        height: 400px;
+        background:  #fff url(/images/Contact-us-1.jpg) fixed no-repeat center;
+        background-size: cover;
+    }
+
+/* ----------------------------------------------------- */
 
     #contact-text {
         background-color: white;
@@ -859,9 +901,11 @@ a.mobile-link {
 
 }
 
-/* ---------------------------------------------------------------
+/* -------------------------------------------------------
+        
         1440px X 900px
----------------------------------------------------------------- */
+
+---------------------------------------------------------- */
 @media (min-width: 1440px) {
     
     .main-header {
