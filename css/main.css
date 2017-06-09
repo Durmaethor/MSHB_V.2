@@ -17,45 +17,18 @@ body {
     text-align: center;
 }
 
-/* =================================
-	LINK STYLES
-================================= */
+  /* =================================
+        LINK STYLES
+    ================================= */
 
-a:link {
-	color: #000;
-	text-decoration: none;
-}
+    a:link {
+        color: #000;
+        text-decoration: none;
+    }
 
-a:visited {
-	color: #000;
-}
-
-a:hover {
-	color: #ff0000;
-}
-
-a:active {
-	color: #000;
-}
-
-a.glow,
-a.glow:hover, 
-a.glow:focus {
-	text-decoration: none;
-	color: #000;
-	text-shadow: none;
-	-webkit-transition: 500ms linear 0s;
-	-moz-transition: 500ms linear 0s;
-	-o-transition: 500ms linear 0s;
-	transition: 500ms linear 0s;
-	outline: 0 none;
-  }
-
-a.glow:hover, 
-a.glow:focus  {
-	color: white;
-	text-shadow: -1px 1px 8px #ff0000, 1px -1px 8px #ff0000;
-  }
+    a:visited {
+        color: #000;
+    }
 
 /* ==============================================================
 
@@ -117,7 +90,7 @@ ul.SM {
 
 .main-header {
     height: 600px;
-    background:  #fff url(/images/home-office-5.jpg) fixed no-repeat center;
+    background:  #fff url(/images/home-office-5.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -179,9 +152,9 @@ p {
 }
 
 .basics-img {
-    height: 500px;
-    background:  #fff url(/images/options.jpg) fixed no-repeat center;
-    background-size: cover;
+    height: 300px;
+    background:  #fff url(/images/options.jpg) no-repeat center;
+    background-size: 425px;
     margin: 0;
     padding: 0;
 }
@@ -207,6 +180,11 @@ p {
 .customer-h3 {
     line-height: 300px;
     font-size: 32px;
+}
+
+a.mobile-link {
+	color: red;
+	text-decoration: none;
 }
 
 .hover-text {
@@ -728,6 +706,46 @@ p {
 ---------------------------------------------------------------- */
 
 @media (min-width: 1366px) {
+
+    /* =================================
+        LINK STYLES
+    ================================= */
+
+    a:link {
+        color: #000;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #000;
+    }
+
+    a:hover {
+        color: #ff0000;
+    }
+
+    a:active {
+        color: #000;
+    }
+
+    a.glow,
+    a.glow:hover, 
+    a.glow:focus {
+        text-decoration: none;
+        color: #000;
+        text-shadow: none;
+        -webkit-transition: 500ms linear 0s;
+        -moz-transition: 500ms linear 0s;
+        -o-transition: 500ms linear 0s;
+        transition: 500ms linear 0s;
+        outline: 0 none;
+    }
+
+    a.glow:hover, 
+    a.glow:focus  {
+        color: white;
+        text-shadow: -1px 1px 8px #ff0000, 1px -1px 8px #ff0000;
+    }
     
     .main-header {
         height: 1024px;
