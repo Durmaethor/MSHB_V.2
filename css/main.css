@@ -468,13 +468,13 @@ a.mobile-link {
     padding: 20px 10px;
 }
 
-.business-header-2 {
+/*.business-header-2 {
     height: 450px;
     background:  #fff url(/images/business-strategy.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
-}
+}*/
 
 /* ==============================================================
 
@@ -522,6 +522,46 @@ a.mobile-link {
         MEDIA QUERIES
 
  =============================================================== */
+
+ /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        600px x 400px
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (min-width: 600px) {
+
+    .basics-img {
+        height: 500px;
+        background-size: 750px;
+    }
+
+    .business-header {
+        height: 400px;
+        background-size: 775px;
+    }
+
+    .business-h2 {
+        padding-top: 200px;
+        font-size: 44px;
+    }
+
+    .do-title,
+    .dont-title,
+    .how-title {
+        font-size: 36px;
+    }
+
+    .the-dos-list,
+    .the-donts-list, {
+        height: 325px;
+    }
+
+    .the-how-list {
+        height: 350px;
+    }
+
+}
 
 /* ---------------------------------------------------------------
         768px X 1024px
@@ -711,6 +751,29 @@ a.mobile-link {
     .list {
         flex-grow: 1;
     }
+
+    .business-header {
+        height: 400px;
+        background-size: 1030px;
+    }
+
+    .the-dos-image {
+        float: left;
+        width: 50%;
+        height: 325px;
+    }
+
+    .the-dos-list {
+        float: right;
+        width: 50%;
+    }
+
+    .the-dos-list,
+    .the-donts-list {
+        height: 325px;
+    }
+
+
  
 }
 
