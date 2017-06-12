@@ -553,7 +553,7 @@ a.mobile-link {
     }
 
     .the-dos-list,
-    .the-donts-list, {
+    .the-donts-list {
         height: 325px;
     }
 
@@ -757,6 +757,11 @@ a.mobile-link {
         background-size: 1030px;
     }
 
+    .the-dos-list,
+    .the-donts-list {
+        height: 325px;
+    }
+
     .the-dos-image {
         float: left;
         width: 50%;
@@ -768,9 +773,41 @@ a.mobile-link {
         width: 50%;
     }
 
-    .the-dos-list,
-    .the-donts-list {
+    .the-donts-image {
+        float: right;
+        width: 50%;
         height: 325px;
+    }
+
+    .the-donts-list {
+        float: left;
+        width: 50%; 
+    }
+
+    .the-how-image {
+        float: left;
+        width: 50%;
+        height: 350px;
+    }
+
+    .the-how-list {
+        float: right;
+        width: 50%;
+    }
+
+    .closing {
+        clear: both;
+    }
+
+    .do-title,
+    .dont-title {
+        font-size: 42px;
+        padding-top: 125px;
+    }
+
+    .how-title {
+        font-size: 42px;
+        padding-top: 150px;
     }
 
 
@@ -907,6 +944,36 @@ a.mobile-link {
         padding: 25px;
     }
 
+/*=======================================================
+
+        CUSTOMER HEADER LARGE SCREENS
+
+======================================================== */
+
+    .customer-header {
+        height: 600px;
+        background:  #fff url(/images/receipt.jpg) fixed no-repeat center;
+        background-size: cover;
+    }
+
+
+
+/*=======================================================
+
+        BUSINESS HEADER LARGE SCREENS
+
+======================================================== */
+
+    .business-header {
+        height: 600px;
+        background:  #fff url(/images/business-strategy.jpg) fixed no-repeat center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+/* ----------------------------------------------------- */
+
     .business-h2 {
         padding-top: 300px;
     }
@@ -919,7 +986,7 @@ a.mobile-link {
     .the-dos-list {
         float: right;
         width: 50%;
-        height: 300px;
+        height: 325px;
         padding: 35px 5px 20px 100px;
     }
 
@@ -931,7 +998,7 @@ a.mobile-link {
     .the-donts-list {
         float: left;
         width: 50%;
-        height: 300px;
+        height: 325px;
         padding: 35px 5px 20px 100px;
     }
 
