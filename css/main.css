@@ -118,17 +118,18 @@ h1 {
     font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: #FFF;
-    margin: 0;
+    margin: 5px;
     text-shadow: 2px 2px 2px #000;
     text-align: center;
 }
 
 #intro {
-    text-align: center;
+    text-align: left;
 }
 
 .intro-div {
-    margin: 20px 10px;
+    width: 90%;
+    margin: 20px auto;
 }
 
 /* ==============================================================
@@ -148,7 +149,7 @@ p {
 ---------------------------------------------------------------- */
 
 #basics {
-    text-align: center;
+    text-align: left;
 }
 
 .basics-img {
@@ -159,13 +160,18 @@ p {
     padding: 0;
 }
 
+#basics-div {
+    width: 90%;
+    margin: 0 auto;
+}
+
 #basics-h2 {
     padding-top: 50px;
     font-size: 24px;
 }
 
 #basics-text {
-    margin: 0 10px 10px;;
+    margin: 10px;
 }
 
 .customer {
@@ -228,13 +234,17 @@ a.mobile-link {
     padding: 140px 20px 20px;
 }
 
+.ancient {
+    text-align: center;
+}
+
 
 /* ---------------------------------------------------------------
         Third parallax image
 ---------------------------------------------------------------- */
 
 #about {
-    text-align: center;
+    text-align: left;
 }
 
 .about-img {
@@ -251,8 +261,11 @@ a.mobile-link {
 }
 
 .about-div {
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto 20px;
 }
+
+
 
 /* ---------------------------------------------------------------
         Fourth parallax image
