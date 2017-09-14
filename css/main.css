@@ -288,15 +288,31 @@ a.mobile-link {
 
 .c-bio {
     padding: 20px;
+    text-align: center;
 }
 
 #ryan-about {
-    height: 300px;
-    background: #fff url(/images/Cassie-img.jpg) no-repeat center;
+    height: 335px;
+    background: #fff url(/images/ryan-img-2.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
     position: relative;
+}
+
+#ryan-about:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.r-bio {
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.white-box {
+    height: 50px;
+    clear: both;
 }
 
 
@@ -857,6 +873,19 @@ a.mobile-link {
         padding-top: 150px;
     }
 
+    #cassie-about {
+        float: left;
+        width: 50%;
+        height: 400px;
+    }
+
+    #ryan-about {
+        float: right;
+        width: 50%;
+        height: 400px;
+    }
+
+
 
  
 }
@@ -1212,6 +1241,11 @@ a.mobile-link {
         width: 50%;
         height: 300px;
         padding: 40px 5px 10px 100px;
+    }
+
+    #cassie-about,
+    #ryan-about {
+        height: 550px;
     }
 
 }
