@@ -736,10 +736,23 @@ a.mobile-link {
         visibility: hidden;
     }
 
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+    }
+
     .menu-button {
         margin: 5px;
         width: 50px;
         visibility: visible;
+    }
+
+    #menu {
+        font-size: 22px;
+        visibility: visible;
+        margin: 0;
+        padding: 8px 0;
+        color: white;
     }
 
     p {
@@ -1165,6 +1178,11 @@ a.mobile-link {
         justify-content: center;
         align-items: center;
         padding-top: 50px;
+    }
+
+    #menu {
+        font-size: 24px;
+        padding: 5px 0;
     }
 
 }
