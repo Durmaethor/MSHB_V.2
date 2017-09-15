@@ -760,12 +760,24 @@ a.mobile-link {
         line-height: 125%;
     }
 
+    .intro-div {
+        text-align: center;
+    }
+
     .ancient {
         clear: both;
     }
 
+    #basics {
+        text-align: center;
+    }
+
     #basics-h2 {
         padding-top: 25px;
+    }
+
+    #basics-text {
+        padding-bottom: 40px;
     }
 
     #about-h2 {
@@ -884,6 +896,11 @@ a.mobile-link {
     .how-title {
         font-size: 42px;
         padding-top: 150px;
+    }
+
+    #about-text {
+        text-align: center;
+        padding-bottom: 25px;
     }
 
     #cassie-about {
