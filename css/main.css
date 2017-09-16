@@ -13,7 +13,7 @@ body {
     font-weight: 500;
     color: #FF0000;
     margin: 0;
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 1px 1px 1px #000;
     text-align: center;
 }
 
@@ -55,10 +55,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #FFF;
     color: white;
-    height: 50px;
+    height: 100px;
+}
+
+#navigation2 ul a {
+    padding: 10px;
 }
 
 ul.SM {
@@ -338,22 +343,70 @@ a.mobile-link {
     font-size: 24px;
 }
 
-#contact-text {
-    height: 150px;
-    background-color: #fff;
-    color: #000;
+#contact-div {
+    width: 100%;
+}
+
+.contact-intro {
+    width: 90%;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.contact-name-c {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#contact-cassie {
+    height: 175px;
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 25px 5px 5px;
     font-size: 15px;
 }
 
-#contact-text-2 {
-    height: 150px;
+.contact-cassie-text,
+.contact-ryan-text {
+    line-height: 150%;
+}
+
+#contact-ryan {
+    height: 175px;
     background-color: red;
     color: white;
     margin: 0;
-    padding: 35px 20px 20px;
-    font-size: 18px;
+    padding: 25px 5px 5px;
+    font-size: 15px;
+}
+
+.contact-name-r {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+ul.SM-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.FB-logo-f {
+    width: 25px;
+    padding: 5px;
+}
+
+.T-logo-f {
+    width: 30px;
+    padding: 5px;
+}
+
+.I-logo-f {
+    width: 25px;
+    padding: 5px;
 }
 
 .callTo {
@@ -546,37 +599,15 @@ a.mobile-link {
  =============================================================== */
 
  footer {
-     height: 100px;
+     height: 50px;
      background-color: #000;
  }
-
- ul.SM-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.FB-logo-f {
-    width: 25px;
-    padding: 5px;
-}
-
-.T-logo-f {
-    width: 30px;
-    padding: 5px;
-}
-
-.I-logo-f {
-    width: 25px;
-    padding: 5px;
-}
 
 .copyright {
     color: white;
     font-size: 12px;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     text-align: center;
 }
 
@@ -585,6 +616,14 @@ a.mobile-link {
         MEDIA QUERIES
 
  =============================================================== */
+
+ @media (min-width: 370px) {
+
+    #navigation2 ul {
+        height: 50px;
+    }
+     
+ }
 
  /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -789,7 +828,7 @@ a.mobile-link {
     }
 
     #contact-h2 {
-        padding: 50px;
+        padding-top: 25px;
     }
 
     #contact-text {
