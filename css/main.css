@@ -27,8 +27,9 @@ body {
     }
 
     a:visited {
-        color: red;
+        color: black;
     }
+
 
 /* ==============================================================
 
@@ -78,8 +79,8 @@ ul.SM {
     width: 25px;
 }
 
-.T-logo {
-    width: 32px;
+.YT-logo {
+    width: 25px;
 }
 
 .I-logo {
@@ -359,12 +360,22 @@ a.mobile-link {
 }
 
 #contact-cassie {
-    height: 175px;
+    height: 150px;
     background-color: #000;
     color: #fff;
     margin: 0;
     padding: 25px 5px 5px;
     font-size: 15px;
+}
+
+#contact-cassie a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact-cassie a:visited {
+    text-decoration: none;
+    color: red;
 }
 
 .contact-cassie-text,
@@ -373,12 +384,22 @@ a.mobile-link {
 }
 
 #contact-ryan {
-    height: 175px;
+    height: 150px;
     background-color: red;
     color: white;
     margin: 0;
     padding: 25px 5px 5px;
     font-size: 15px;
+}
+
+#contact-ryan a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact-ryan a:visited {
+    text-decoration: none;
+    color: #000;
 }
 
 .contact-name-r {
@@ -395,17 +416,17 @@ ul.SM-2 {
 }
 
 .FB-logo-f {
-    width: 25px;
+    width: 45px;
     padding: 5px;
 }
 
-.T-logo-f {
-    width: 30px;
+.YT-logo-f {
+    width: 45px;
     padding: 5px;
 }
 
 .I-logo-f {
-    width: 25px;
+    width: 45px;
     padding: 5px;
 }
 
