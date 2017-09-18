@@ -1083,32 +1083,31 @@ ul.SM-2 {
     }
 
 /* ----------------------------------------------------- */
+#contact-cassie {
+    float: left;
+    height: 400px;
+    width: 50%;
+}
 
-    #contact-text {
-        background-color: white;
-        color: black;
-        margin: 0;
-        padding: 150px 20px 20px;
-        font-size: 26px;
-    }
+#contact-ryan {
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+.contact-name-c {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 
-    #contact-text-2 {
-        height: 400px;
-        background-color: red;
-        margin: 0;
-        padding: 150px 20px 20px;
-        font-size: 26px;
-    }
+.contact-name-r {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
 
-    .list {
-        font-size: 20px;
-        padding: 20px 10px;
-        height: 300px;
-    }
-
-    .list li {
-        padding: 25px;
-    }
+.SM-2 {
+    clear: both;
+}
 
 /*=======================================================
 
