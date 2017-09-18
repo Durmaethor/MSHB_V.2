@@ -613,6 +613,14 @@ ul.SM-2 {
     padding: 0;
 }*/
 
+.resources-header {
+    height: 200px;
+    background:  #fff url(/images/sunset-1.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 /* ==============================================================
 
         FOOTER
@@ -630,6 +638,7 @@ ul.SM-2 {
     margin: 0;
     padding: 15px;
     text-align: center;
+    clear: both;
 }
 
 /* ==============================================================
