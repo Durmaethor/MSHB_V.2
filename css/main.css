@@ -457,7 +457,7 @@ ul.SM-2 {
 
 .customer-info {
     background-color: white;
-    text-align: center;
+    text-align: left;
     margin: 20px 10px;
 }
 
@@ -513,6 +513,8 @@ ul.SM-2 {
 }
 
 
+
+
 /* ==============================================================
 
         BUSINESS PAGE
@@ -535,7 +537,7 @@ ul.SM-2 {
 }
 
 .business-info {
-    text-align: center;
+    text-align: left;
     padding: 20px 10px;
 }
 
@@ -601,17 +603,17 @@ ul.SM-2 {
 }
 
 .closing-text {
-    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
     padding: 20px 10px;
 }
 
-/*.business-header-2 {
-    height: 450px;
-    background:  #fff url(/images/business-strategy.jpg) no-repeat center;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}*/
+/* ==============================================================
+
+        RESOURCES PAGE
+
+ =============================================================== */
 
 .resources-header {
     height: 200px;
@@ -621,6 +623,19 @@ ul.SM-2 {
     padding: 0;
 }
 
+.resources-h2 {
+    padding-top: 125px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 550;
+}
+
+.resources-intro {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 5px;
+}
+
 /* ==============================================================
 
         FOOTER
@@ -628,17 +643,28 @@ ul.SM-2 {
  =============================================================== */
 
  footer {
-     height: 50px;
+     height: 100px;
      background-color: #000;
+     text-align: center;
  }
 
 .copyright {
     color: white;
     font-size: 12px;
     margin: 0;
-    padding: 15px;
-    text-align: center;
     clear: both;
+}
+
+.SM-bottom {
+    text-align: center;
+    padding: 20px 5px 5px;
+}
+
+.FB-logo-b, 
+.YT-logo-b, 
+.I-logo-b {
+    width: 40px;
+    padding: 0 5px;
 }
 
 /* ==============================================================
@@ -1278,6 +1304,16 @@ ul.SM-2 {
         font-size: 48px;
         margin-bottom: 5px;
     }
+
+    .list {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      height: 200px;  
 
 }
 
