@@ -963,6 +963,10 @@ ul.SM-2 {
         padding-bottom: 25px;
     }
 
+    .contact-intro {
+        text-align: center;
+    }
+
     #cassie-about {
         float: left;
         width: 50%;
@@ -986,7 +990,7 @@ ul.SM-2 {
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-@media (min-width: 1366px) {
+@media (min-width: 1364px) {
 
 /* =================================
         LINK STYLES
@@ -1083,31 +1087,39 @@ ul.SM-2 {
     }
 
 /* ----------------------------------------------------- */
-#contact-cassie {
-    float: left;
-    height: 400px;
-    width: 50%;
-}
+    #contact-cassie {
+        float: left;
+        height: 400px;
+        width: 50%;
+    }
 
-#contact-ryan {
-    float: right;
-    width: 50%;
-    height: 400px;
-}
-.contact-name-c {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
+    #contact-ryan {
+        float: right;
+        width: 50%;
+        height: 400px;
+    }
 
-.contact-name-r {
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: white;
-}
+    .contact-cassie-text,
+    .contact-ryan-text {
+        padding-top: 85px;
+        font-size: 24px;
+    }
 
-.SM-2 {
-    clear: both;
-}
+    .contact-name-c,
+    .contact-name-r {
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+
+    #SM-bar {
+        clear: both;
+        height: 100px;
+        padding: 25px;
+    }
+
+    .SM-2 li {
+        padding: 25px;
+    }
 
 /*=======================================================
 
@@ -1224,41 +1236,38 @@ ul.SM-2 {
     }
 
     .FB-logo-f {
-        width: 40px;
+        width: 60px;
         padding: 20px 5px;
     }
 
-    .T-logo-f {
-        width: 50px;
+    .YT-logo-f {
+        width: 60px;
         padding: 20px 5px;
     }
 
     .I-logo-f {
-        width: 40px;
+        width: 60px;
         padding: 20px 5px;
     }
 
     footer {
-        height: 150px;
+        height: 100px;
     }
 
     .copyright {
-        margin-top: 10px;
-        padding-top: 20px;
-        font-size: 18px;
-    }
-
-     ul.SM-2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-top: 50px;
+        padding-top: 25px;
+        font-size: 28px;
     }
 
     #menu {
         font-size: 24px;
         padding: 5px 0;
+    }
+
+    .contact-name-c,
+    .contact-name-r {
+        font-size: 48px;
+        margin-bottom: 5px;
     }
 
 }
@@ -1314,7 +1323,7 @@ ul.SM-2 {
     }
 
     #contact-h2 {
-        padding: 50px;
+        padding-top: 50px;
         font-size: 44px;
     }
 
