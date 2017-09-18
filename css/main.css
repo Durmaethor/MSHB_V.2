@@ -278,7 +278,7 @@ a.mobile-link {
 }
 
 #cassie-about {
-    height: 335px;
+    height: 500px;
     background: #fff url(/images/Cassie-img.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
@@ -298,7 +298,7 @@ a.mobile-link {
 }
 
 #ryan-about {
-    height: 335px;
+    height: 500px;
     background: #fff url(/images/ryan-img-2.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
@@ -616,16 +616,16 @@ ul.SM-2 {
  =============================================================== */
 
 .resources-header {
-    height: 200px;
-    background:  #fff url(/images/sunset-1.jpg) no-repeat center;
+    height: 300px;
+    background:  #fff url(../images/freedom.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 .resources-h2 {
-    padding-top: 100px;
-    font-size: 28px;
+    padding-top: 175px;
+    font-size: 24px;
     color: #fff;
     font-weight: 550;
 }
@@ -677,6 +677,15 @@ ul.SM-2 {
 
     #navigation2 ul {
         height: 50px;
+    }
+
+    #cassie-about,
+    #ryan-about {
+        height: 400px;
+    }
+
+    .resources-h2 {
+        padding-top: 150px;
     }
      
  }
