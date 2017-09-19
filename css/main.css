@@ -636,6 +636,47 @@ ul.SM-2 {
     padding: 20px 5px;
 }
 
+.above-mats {
+    background-color: black;
+    text-align: left;
+    height: 100px;
+}
+
+.above-content {
+    color: white;
+    padding: 20px 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.poison-card-img,
+.peak-card-img {
+    width: 100%;
+}
+
+.peak-card-section,
+.poison-card-section {
+    height: 100px;
+}
+
+.poison-content, 
+.peak-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 5px;
+}
+
+.echor-pitch {
+    height: 100px;
+    background-color: red;
+}
+
+.echor-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 22px 5px;
+}
+
 /* ==============================================================
 
         FOOTER
@@ -643,14 +684,14 @@ ul.SM-2 {
  =============================================================== */
 
  footer {
-     height: 100px;
+     height: 125px;
      background-color: #000;
      text-align: center;
  }
 
 .copyright {
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     clear: both;
 }
@@ -1023,8 +1064,78 @@ ul.SM-2 {
         height: 400px;
     }
 
+    /* RESOURCES PAGE ====================== */
 
+    .above-mats {
+        background-color: black;
+        text-align: center;
+        height: 100px;
+    }
 
+    .above-content {
+        color: white;
+        padding: 30px 5px;
+    }
+
+    #marketing-mats-section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .resources-header {
+        height: 500px;
+    }
+
+    .resources-h2 {
+        font-size: 64px;
+        padding-top: 325px;
+    }
+
+    .resources-intro {
+        text-align: center;
+    }
+
+    .poison-card-img {
+        float: left;
+        width: 50%;
+    }
+
+    .poison-card-section {
+        float: right;
+        width: 50%;
+        height: 150px;
+        background-color: red;
+    }
+
+    .poison-content {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .peak-card-img {
+        float: right;
+        width: 50%;
+    }
+
+    .peak-card-section {
+        float: left;
+        width: 50%;
+        height: 150px;
+    }
+
+    .peak-content {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .echor-pitch {
+        clear: both;
+    }
+
+    .echor-content {
+        text-align: center;
+        padding: 30px 5px;
+    }
  
 }
 
@@ -1250,6 +1361,20 @@ ul.SM-2 {
         font-size: 24px;
     }
 
+    /* RESOURCES PARALLAX HEADER */
+
+    .resources-header {
+        height: 800px;
+        background:  #fff url(../images/freedom.jpg) fixed no-repeat center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    .resources-h2 {
+        padding-top: 600px;
+    }
+
 }
 
 /* -------------------------------------------------------
@@ -1295,12 +1420,12 @@ ul.SM-2 {
     }
 
     footer {
-        height: 100px;
+        height: 125px;
     }
 
     .copyright {
-        padding-top: 25px;
-        font-size: 28px;
+        padding-top: 5px;
+        font-size: 18px;
     }
 
     #menu {
