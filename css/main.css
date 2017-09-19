@@ -659,11 +659,16 @@ ul.SM-2 {
     height: 100px;
 }
 
-.poison-content, 
+.poison-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 5px;
+}
+
 .peak-content {
     width: 90%;
     margin: 0 auto;
-    padding: 25px 5px;
+    padding: 10px 5px;
 }
 
 .echor-pitch {
@@ -975,6 +980,10 @@ ul.SM-2 {
         font-size: 44px;
     }
 
+    .customer-info {
+        text-align: center;
+    }
+
     .customer-bullets {
         display: flex;
         flex-direction: row;
@@ -988,6 +997,10 @@ ul.SM-2 {
     .business-header {
         height: 400px;
         background-size: 1030px;
+    }
+
+    .business-intro {
+        text-align: center;
     }
 
     .the-dos-list,
@@ -1030,6 +1043,11 @@ ul.SM-2 {
 
     .closing {
         clear: both;
+    }
+
+    .closing-text {
+        text-align: center;
+        margin: 0 auto;
     }
 
     .do-title,
@@ -1125,7 +1143,7 @@ ul.SM-2 {
 
     .peak-content {
         text-align: center;
-        padding-top: 40px;
+        padding-top: 25px;
     }
 
     .echor-pitch {
@@ -1351,10 +1369,6 @@ ul.SM-2 {
         padding: 30px 20px;
     }
 
-    .closing-text {
-        padding: 0;
-        margin: 0;
-    }
 
     .business-link,
     .customer-link {
